@@ -2,7 +2,17 @@
 
 /* FROM THIS SECTION CONTAINS MY EDITTING OF MY SEARCH BAR   */
 * {box-sizing: border-box;}
+.top{
+  display: flex;
+  background-color: #75757a;
+  color: #f68b1e;
+}
+.top h3{
+  padding-right: 20px;
+}
 a{
+  text-decoration: none;
+  color: #000;
   
 }
 body {
