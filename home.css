@@ -1,7 +1,19 @@
 
 
 /* FROM THIS SECTION CONTAINS MY EDITTING OF MY SEARCH BAR   */
-* {box-sizing: border-box;}
+*{
+  box-sizing: border-box;
+}
+html{
+  height: 100%;
+}
+body{
+  background-image: url("images/bckgrd.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .top{
   display: flex;
   background-color: #75757a;
@@ -26,6 +38,7 @@ body {
   height: 60px;
   align-content: center;
   align-items: baseline;
+  background: #fff;
 }
 .topnav div
 {
@@ -53,4 +66,9 @@ body {
 {
   font-size: 20px;
   list-style: none;
+}
+#wallpaper
+{
+  background-repeat: no-repeat;
+  background-position: center;
 }
