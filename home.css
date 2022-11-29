@@ -8,7 +8,7 @@ html{
   height: 100%;
 }
 body{
-  background-image: url("images/bckgrd.jpg");
+  background-image: url("images/bckgrd6.jpg");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -46,15 +46,20 @@ body {
 }
 .topnav .search-container input[type= text]
 {
-  border: 0px;
+  border-width: 2px;
+  border-style: ridge;
+  border-radius: 8px; 
   padding: 10px;
   font-size: 20px;
+  border-color: #000;
 }
 
 .topnav .search-container button
 {
   padding: 5px 10px;
   font-size: 16px;
+  background-color: #fff;
+  border: none;  
 }
 
 .topnav div select
@@ -71,4 +76,7 @@ body {
 {
   background-repeat: no-repeat;
   background-position: center;
+}
+.fa,.fa-search{
+  background-color: #fff;
 }
