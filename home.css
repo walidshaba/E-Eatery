@@ -38,6 +38,7 @@ body {
   align-content: center;
   align-items: baseline;
   background: #fff;
+ 
 }
 .topnav div
 {
@@ -123,10 +124,7 @@ body {
   width: fit-content;
 
 }
-.flexframe .frame1 h3:hover
-{
-color: #f68b1e;
-}
+
 .flexframe .frame2
 {
   background-color: transparent;
@@ -157,7 +155,31 @@ color: #f68b1e;
 }
 
 
+/* Sections */
+.secframe
+{
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: 350px;
+}
 
+.secframe .sec1
+{
+display: flex;
+flex-direction: row;
+background-color: #fff;
+}
+
+.secframe .sec1 div{
+  margin-left: 10px;
+}
+.secframe .sec1 div img
+{
+  width: 127.5px;
+  height: 127.5px;
+  border-radius: 10px;
+}
 #myBtn {
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
