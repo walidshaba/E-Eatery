@@ -50,7 +50,10 @@
     height: 100px;
     background-color: red;
     animation-name: example;
-    animation-duration: 2s;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    visibility: visible;
 }
 @keyframes example {
 from
