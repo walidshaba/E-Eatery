@@ -44,3 +44,22 @@
     font-size: 30px;
     box-shadow: 5px 10px 8px #000;
 }
+.changcolor
+{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 2s;
+}
+@keyframes example {
+from
+{
+    background-color: red;
+}
+to
+{
+    background-color: yellow;
+}
+    
+}
